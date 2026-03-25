@@ -1,6 +1,6 @@
 import axios from "axios";
 import { Getvaluesglobal } from "./components/Wrapper";
-export const serverURL = "http://localhost:7700"
+export const serverURL = "https://indeed-test-one.onrender.com"
 export const useAPicalforai = async ({ input, setInput, setResult, setLoading }) => {
     try {
         setLoading(true);
